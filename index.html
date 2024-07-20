@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./images.jpeg" type="image/x-icon">
+</head>
+
+<body>
+
+    <center>
+
+      <div class="container">
+        <div id="main">
+
+          <h1>Weather App</h1>
+          <input style="margin: 20px;" id="search" placeholder="Search Country" type="text"><button
+            onclick="ser()">Search</button><br><br>
+          <p id="para">Name</p>
+          <img class="st" src="" alt="Weather icon" id="weather-icon">
+          <div class="weather-info">
+            <div>
+              <p class="st">Temperature: <br> <span id="temperature"></span>&deg;C</p><br><br>
+              <p class="st">Feel Like: <br><span id="feellike"></span></p>
+            </div>
+            <div>
+              <p class="st">Humidity: <br> <span id="Humidity"> </span></p><br><br>
+              <p class="st">Description: <br><span id="description"></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </center>
+
+
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
